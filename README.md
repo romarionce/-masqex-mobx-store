@@ -1,15 +1,8 @@
-# @masqex/mobx-store
-
+# @mobx-one-line
+Create Mobx Store in one line
 To install dependencies:
-
 ```bash
-bun install
+bun i mobx-one-line
 ```
-
-To run:
-
-```bash
-bun run index.ts
+# Usage
 ```
-
-This project was created using `bun init` in bun v1.1.5. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
