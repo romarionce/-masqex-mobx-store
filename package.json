@@ -1,9 +1,21 @@
 {
   "name": "@masqex/mobx-store",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "type": "module",
+  "version": "0.0.1",
+  "description": "Create Mobx Store in one line",
+  "license": "MIT",
+  "files": [
+    "dist/*.js",
+    "dist/*.d.ts"
+  ],
+  "scripts": {
+    "build": "bun build --target=node ./src/index.ts --outfile=dist/index.js && bun run build:declaration",
+    "build:declaration": "tsc --emitDeclarationOnly --project tsconfig.types.json"
+  },
   "devDependencies": {
     "@types/bun": "latest",
+    "@types/react": "^18.3.3",
     "react": "^18.3.1"
   },
   "peerDependencies": {
