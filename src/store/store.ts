@@ -20,5 +20,4 @@ export class Store<T> {
     Provider = ({ children, value }: { value: T; children?: ReactNode }) => {
         return useProvider(this.ctx, value, children);
     };
-    provider = (value: T) => useProvider(this.ctx, value);
 }
