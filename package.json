@@ -2,13 +2,12 @@
   "name": "mobx-one-line",
   "module": "src/index.ts",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create Mobx Store in one line",
   "license": "MIT",
   "main": "dist/index.js",
   "files": [
-    "dist/*.js",
-    "dist/*.d.ts"
+    "dist"
   ],
   "scripts": {
     "build": "bun build --target=node ./src/index.ts --outfile=dist/index.js && bun run build:declaration",
