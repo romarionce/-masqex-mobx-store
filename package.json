@@ -2,7 +2,7 @@
   "name": "mobx-one-line",
   "module": "src/index.ts",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Create Mobx Store in one line",
   "license": "MIT",
   "main": "dist/index.js",
